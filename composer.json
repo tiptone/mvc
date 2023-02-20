@@ -1,0 +1,16 @@
+{
+    "name": "tiptone/mvc",
+    "description": "really light weight mvc",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^2.9",
+        "php-di/php-di": "^6.4",
+        "foundation/foundation-sites": "^6.7",
+        "twig/twig": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiptone\\Mvc\\": "src/"
+        }
+    }
+}
